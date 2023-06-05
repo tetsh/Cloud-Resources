@@ -2,13 +2,12 @@ data "azurerm_resource_group" "assessment" {
   name = var.resource_group_name
 }
 
-# resource "random_string" "fqdn" {
-#   length  = 6
-#   special = false
-#   upper   = false
-#   numeric = false
-#   lower   = true
-# }
+resource "random_string" "fqdn" {
+  length  = 6
+  special = false
+  upper   = false
+  numeric = false
+}
 
 #############################################################################
 # NETWORK & SUBNET
@@ -60,7 +59,7 @@ resource "azurerm_public_ip" "vmss" {
   location            = data.azurerm_resource_group.assessment.location
   resource_group_name = data.azurerm_resource_group.assessment.name
   allocation_method   = "Static"
-  domain_name_label   = "testlabdigitech"
+  domain_name_label   = random_string.fqdn.result
   sku                 = "Standard"
 }
 

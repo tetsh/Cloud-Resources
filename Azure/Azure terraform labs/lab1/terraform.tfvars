@@ -5,5 +5,5 @@ virtual_machine_name           = "VMSS-SCALE-SET"
 instances_count                = 2
 azurerm_network_security_group = "VMSS-NSG"
 azurerm_subnet                 = "VMSS-SUBNET"
-admin_user                     = "admin"
-admin_password                 = "Admin#4231!!"
+admin_user                     = "tetsh"
+admin_password                 = "Tetsh#4231!!"
