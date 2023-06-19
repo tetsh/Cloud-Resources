@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "hostpoolName": {
+            "value": "Etisalat-Hostpool"
+        },
+        "hostpoolFriendlyName": {
+            "value": "Etisalat AVD Hostpool"
+        },
+        "appgroupName": {
+            "value": "EtisalatApps"
+        },
+        "appgroupNameFriendlyName": {
+            "value": "Apps with AVD"
+        },
+        "workspaceName": {
+            "value": "EtisalatBeach"
+        },
+        "workspaceNameFriendlyName":{
+            "value": "Etisalat workspace"
+        },
+        "applicationgrouptype": {
+            "value": "Desktop"
+        },
+        "preferredAppGroupType": {
+            "value": "Desktop"
+        },
+        "avdlocation": {
+            "value": "westeurope"
+        },
+        "hostPoolType": {
+            "value": "Pooled"
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        }
+    }
+}
