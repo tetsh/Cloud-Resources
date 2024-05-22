@@ -23,7 +23,7 @@ In addition to creating an example pipeline, we'll also add enhanced capabilitie
 * Demonstrating how we can scale with multiple deployments
     
 
-> *If you'd like to skip straight to the download of the example pipeline and Terraform code, it can be found on* [*GitHub*](https://github.com/tetsh/Cloud-Resources/DevOps-Labs/tree/master/DevOps-Lab-01/terraform)*.*
+> *If you'd like to skip straight to the download of the example pipeline and Terraform code, it can be found on* [*GitHub*](https://github.com/tetsh/Cloud-Resources/tree/master/DevOps-Labs/DevOps-Lab-01/terraform)*.*
 
 ### **Overall Topology**
 
